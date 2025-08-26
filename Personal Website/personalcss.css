@@ -20,7 +20,7 @@ header, main, footer {
 }
 
 p {
-  line-height: 1.6; /* easier to read */
+  line-height: 1.6; 
 }
 
 header {
@@ -30,8 +30,8 @@ header {
 
 .header-content {
   display: flex;
-  justify-content: space-between; /* text on left, image on right */
-  align-items: center; /* vertical alignment */
+  justify-content: space-between;
+  align-items: center; 
   padding: 20px;
 }
 
@@ -43,7 +43,7 @@ header {
 
 main {
   main {
-  background: rgba(0,0,0,0.4); /* transparent dark box */
+  background: rgba(0,0,0,0.4); 
   border-radius: 12px;
   padding: 30px;
   margin: 20px auto;
@@ -68,14 +68,14 @@ footer {
 
 .myImage img {
 
-  border-radius: 50%; /* circular */
-  border: 3px solid palegoldenrod; /* matches theme */
+  border-radius: 50%; 
+  border: 3px solid palegoldenrod;
   transition: transform 0.3s ease;
   width: 250px;
   height: 250px;
 }
 .myImage img:hover {
-  transform: scale(1.05); /* slight zoom on hover */
+  transform: scale(1.05); 
 }
 
 
@@ -111,3 +111,4 @@ a {
 a:hover {
   color: rgb(52, 11, 201);
 }
+
